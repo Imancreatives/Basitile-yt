@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vehicle_types">
+        <item>    </item>
+        <item>Gari ndogo</item>
+        <item>Pikipiki</item>
+        <item>Baiskeli</item>
+        <item>Gari kubwa</item>
+        <item>Gari la abiria</item>
+    </string-array>
+    <string-array name="incident_types">
+        <item>    </item>
+        <item>Ajali</item>
+        <item>Kukiuka sheria</item>
+        <item>Wizi wa chombo</item>
+        <item>Kupaki vibaya</item>
+        <item>Nyingine</item>
+    </string-array>
+</resources>

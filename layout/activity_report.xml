@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ReportActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ripoti"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Toa maelezo hapa" />
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Weka namba yako ya simu hapa" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chagua aina ya chombo"
+        android:textSize="18dp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/tx"/>
+    <Spinner
+        android:id="@+id/spinnerVehicleType"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chagua aina ya tukio"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tx1"/>
+    <Spinner
+        android:id="@+id/spinnerIncidentType"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:entries="@array/incident_types"
+        android:prompt="@string/incident_type_prompt" />
+
+    <Button
+        android:id="@+id/buttonAttachPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ambatanisha picha hapa (sio lazima)" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/mbuzi"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonSendReport"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/input"
+        android:layout_marginTop="16dp"
+        android:text="Tuma Ripoti" />
+
+</LinearLayout>

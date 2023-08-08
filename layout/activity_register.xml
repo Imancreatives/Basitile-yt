@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30sp"
+    android:background="#6AF"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRATION FORM"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_marginTop="20sp"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/input"
+        android:hint="Enter Regional Traffic ID" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_marginTop="20sp"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/input"
+        android:inputType="phone"
+        android:hint="Enter Phone Number" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_marginTop="20sp"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/input"
+        android:hint="Enter Email Address" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_marginTop="20sp"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/input"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        android:layout_marginTop="20sp"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/input"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_marginTop="20sp"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/input"
+        android:text="Register" />
+
+
+</LinearLayout>

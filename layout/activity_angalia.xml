@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="30sp"
+    android:gravity="center"
+    tools:context=".Angalia">
+    <TextView
+        android:id="@+id/linkTextVie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click below link to view all report"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_marginTop="20sp"
+        android:id="@+id/linkTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="view report"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#0000FF"
+        android:autoLink="web"
+        />
+
+</LinearLayout>

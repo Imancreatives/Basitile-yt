@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s2"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_marginTop="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UONGOZI MATHUBUTI KWA USALAMA BARABARANI: PAZA SAUTI OKOA MAISHA"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textAlignment="center"/>
+        <Button
+            android:id="@+id/report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input"
+            android:text="TUMA HAPA TAARIFA"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/regulation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SHERIA ZA BARABARANI"
+            android:background="@drawable/input"
+            android:layout_marginTop="20sp"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <Button
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/input"
+            android:text="alama za barabarani"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="145sp"
+            android:layout_marginLeft="38dp"
+            android:text="© Copyright 2023, All Rights Reserved"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
